@@ -1,0 +1,16 @@
+PODS:
+  - MySecondPod (0.1.0)
+
+DEPENDENCIES:
+  - MySecondPod (from `../`)
+
+EXTERNAL SOURCES:
+  MySecondPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MySecondPod: 2e20d9e6de255b18c4ea6f59bfea9415c23eb21d
+
+PODFILE CHECKSUM: a5159a7416a119c69bb5786f24f8ebfe7c98c40e
+
+COCOAPODS: 1.8.4
