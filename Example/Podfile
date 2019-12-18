@@ -1,6 +1,8 @@
 use_frameworks!
+source 'https://git.epam.com/Maksym_Korostelov/mypodspecs.git'
 
 target 'MySecondPod_Example' do
+  pod 'MyFirstPod'
   pod 'MySecondPod', :path => '../'
 
   target 'MySecondPod_Tests' do

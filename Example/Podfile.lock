@@ -1,16 +1,24 @@
 PODS:
-  - MySecondPod (0.1.0)
+  - MyFirstPod (0.1.2)
+  - MySecondPod (0.1.0):
+    - MyFirstPod
 
 DEPENDENCIES:
+  - MyFirstPod
   - MySecondPod (from `../`)
+
+SPEC REPOS:
+  https://git.epam.com/Maksym_Korostelov/mypodspecs.git:
+    - MyFirstPod
 
 EXTERNAL SOURCES:
   MySecondPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MySecondPod: 2e20d9e6de255b18c4ea6f59bfea9415c23eb21d
+  MyFirstPod: 7954cbd146587961023957330f35b9fa44ed1265
+  MySecondPod: 13ef816745e48832a1ae9599e7cc6897a452533d
 
-PODFILE CHECKSUM: a5159a7416a119c69bb5786f24f8ebfe7c98c40e
+PODFILE CHECKSUM: fe905629789d0487627c8d36770567f15929781a
 
 COCOAPODS: 1.8.4

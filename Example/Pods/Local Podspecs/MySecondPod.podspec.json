@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "MySecondPod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Maksym Korostelov/MySecondPod",
+  "homepage": "https://github.com/maksym-korostelov/MySecondPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -19,11 +19,11 @@
     "ios": "13.0"
   },
   "source_files": "MySecondPod/Classes/**/*",
+  "swift_versions": "5.0",
   "dependencies": {
     "MyFirstPod": [
-      "~> 0.1.1"
+
     ]
   },
-  "swift_versions": "5.0",
   "swift_version": "5.0"
 }

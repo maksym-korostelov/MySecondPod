@@ -291,10 +291,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MySecondPod_Example/Pods-MySecondPod_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MyFirstPod/MyFirstPod.framework",
 				"${BUILT_PRODUCTS_DIR}/MySecondPod/MySecondPod.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFirstPod.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MySecondPod.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

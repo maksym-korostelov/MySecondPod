@@ -1,5 +1,5 @@
-public class MySecondPodClass {
-    public class func printTask() {
-        print("This is Framework2.")
-    }
+import MyFirstPod
+public func print() {
+    MyFirstPod.print()
+    print("This is Framework2.")
 }
